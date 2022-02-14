@@ -48,14 +48,46 @@ namespace TypeViewer
             } while (true);
         }
 
+        //static void ListMethods(Type t)
+        //{
+        //    Console.WriteLine("***** Methods *****");
+        //    var methods = from m in t.GetMethods() select m.Name;
+        //    foreach (var method in methods)
+        //        Console.WriteLine($"=> {method}");
+        //    Console.WriteLine();
+        //}
+
         static void ListMethods(Type t)
         {
             Console.WriteLine("***** Methods *****");
-            var methods = from m in t.GetMethods() select m.Name;
+
+            var methods = t.GetMethods().Select(m =>
+           {
+               string result = m.ReturnType.FullName;
+               result += $" {m.Name}(";
+               foreach (var p in m.GetParameters())
+               {
+                   result += p.ParameterType;
+                   result += $" {p.Name}" +
+                   $"{((p.Position == m.GetParameters().Length - 1) ? "" : ", ")}";
+               }
+               result += ")";
+               return result;
+           });
+
             foreach (var method in methods)
                 Console.WriteLine($"=> {method}");
             Console.WriteLine();
         }
+
+        //static void ListMethods(Type t)
+        //{
+        //    Console.WriteLine("***** Methods *****");
+        //    var methods = from m in t.GetMethods() select m;
+        //    foreach (var method in methods)
+        //        Console.WriteLine($"=> {method}");
+        //    Console.WriteLine();
+        //}
 
         static void ListFields(Type t)
         {
