@@ -13,6 +13,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LateBindingApp", "LateBindi
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ApplyingAttributes", "ApplyingAttributes\ApplyingAttributes.csproj", "{62DD72E5-01A2-4432-9306-B28F466C6B58}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AttributedCarLibrary", "AttributedCarLibrary\AttributedCarLibrary.csproj", "{9535CAB7-94EB-4D4C-A652-EABBAC4D5AC5}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "VehicleDescriptionAttributeReader", "VehicleDescriptionAttributeReader\VehicleDescriptionAttributeReader.csproj", "{24E3B65F-1965-47CC-824C-3CAFB7AC79F2}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -39,6 +43,14 @@ Global
 		{62DD72E5-01A2-4432-9306-B28F466C6B58}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{62DD72E5-01A2-4432-9306-B28F466C6B58}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{62DD72E5-01A2-4432-9306-B28F466C6B58}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9535CAB7-94EB-4D4C-A652-EABBAC4D5AC5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9535CAB7-94EB-4D4C-A652-EABBAC4D5AC5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9535CAB7-94EB-4D4C-A652-EABBAC4D5AC5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9535CAB7-94EB-4D4C-A652-EABBAC4D5AC5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{24E3B65F-1965-47CC-824C-3CAFB7AC79F2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{24E3B65F-1965-47CC-824C-3CAFB7AC79F2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{24E3B65F-1965-47CC-824C-3CAFB7AC79F2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{24E3B65F-1965-47CC-824C-3CAFB7AC79F2}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
