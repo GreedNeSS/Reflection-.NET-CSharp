@@ -17,6 +17,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AttributedCarLibrary", "Att
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "VehicleDescriptionAttributeReader", "VehicleDescriptionAttributeReader\VehicleDescriptionAttributeReader.csproj", "{24E3B65F-1965-47CC-824C-3CAFB7AC79F2}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "VehicleDescriptionAttributeReaderLateBinding", "VehicleDescriptionAttributeReaderLateBinding\VehicleDescriptionAttributeReaderLateBinding.csproj", "{FBB5B477-E839-415D-8904-B4625454ADEE}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -51,6 +53,10 @@ Global
 		{24E3B65F-1965-47CC-824C-3CAFB7AC79F2}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{24E3B65F-1965-47CC-824C-3CAFB7AC79F2}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{24E3B65F-1965-47CC-824C-3CAFB7AC79F2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FBB5B477-E839-415D-8904-B4625454ADEE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FBB5B477-E839-415D-8904-B4625454ADEE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FBB5B477-E839-415D-8904-B4625454ADEE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FBB5B477-E839-415D-8904-B4625454ADEE}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
